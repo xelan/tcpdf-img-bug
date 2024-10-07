@@ -1,0 +1,17 @@
+{
+    "name": "xelan/tcpdf-img-bug",
+    "description": "Demonstrates a problem with TCPDF 6.7.6 where HTML images with a relative path fail to render",
+    "support": {
+        "issues": "https://github.com/tecnickcom/TCPDF/issues/751"
+    },
+    "authors": [
+        {
+        "name": "Andreas Erhard",
+        "email": "andreas.erhard@i-med.ac.at"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.4",
+        "tecnickcom/tcpdf": "6.7.*"
+    }
+}
